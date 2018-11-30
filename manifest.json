@@ -1,0 +1,14 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "main.html"
+   },
+   "icons": {
+   },
+   "manifest_version": 2,
+   "name": "Simple newtab",
+   "description": "Show a nice photo when you open a new tab. https://github.com/micahjmartin/newtab-chrome",
+   "offline_enabled": true,
+   "permissions": ["storage"],
+   "version": "0.0.1",
+   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

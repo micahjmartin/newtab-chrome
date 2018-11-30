@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>New Page</title>
+        <style>
+        body {
+            background-color: #303030;
+            background-size: cover;
+            background-position: center center;
+        }
+        .clock {
+            position: absolute;
+            font-size: 4em;
+            text-align: right;
+            color: #ffffff;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            opacity: 0.80;
+            transition: 0.5s;
+        }
+        .clock:hover {opacity: 1;}
+
+        #time {
+            right: 10px;
+            bottom: 10px;
+            font-size: 6em;
+        }
+        #date {
+            left: 10px;
+            bottom: 10px;
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Check me out on Github! https://github.com/micahjmartin/newtab-chrome -->
+        <div id='time' class='clock'></div>
+        <div id='date' class='clock'></div>
+    </body>
+    <script src="keys.js"></script>
+    <script src="main.js"></script>
+    </html>
